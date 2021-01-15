@@ -1,0 +1,48 @@
+body {
+  background-color: beige; 
+  margin: 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(116, 134, 168);
+    padding: 10px;
+}
+
+h2 {
+    color: darkgrey;
+    margin-bottom: 40px;
+}
+
+p {
+    color: darkslategray;
+    margin-bottom: 100px;
+}
+
+a:hover {
+    background-color: rgb(33, 46, 33);
+    transition: 500ms;
+}
+
+#text-banner {
+    color: white;
+    text-shadow: 2px 2px dimgrey;
+}
+
+.banner {
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+    padding: 120px 0;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Fraunces', serif;
+}
+
+.article {
+    text-align: left;
+    padding: 20px 100px;
+}
